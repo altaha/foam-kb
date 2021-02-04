@@ -27,9 +27,9 @@
     - More of a practical book. But covers alot of topics.
     - An issue is that code is based on MXNet because authors are from Amazon (some community adaptations to TF & PyTorch)
 - Probabilistic Machine Learning - book series by Kevin Murphy:
-    - [Book 0: Machine Learning: a Probabilistic Perspetive (2012)](https://probml.github.io/pml-book/book0.html)
+    - [Book 0: Machine Learning: a Probabilistic Perspective (2012)](https://probml.github.io/pml-book/book0.html)
     - [Book 1: Probabilistic Machine Learning: An Introduction (2021)](https://probml.github.io/pml-book/)
     - [Book 2: Probabilistic Machine Learning: Advanced Topics (2022)](https://probml.github.io/pml-book/)
-    - Looks quite good. Includes sections on topics such as optimization. Book 1 & 2 still being written.
+    - Looks quite good. Includes sections on topics such as optimization. Book 1 & 2 still being written. It appears that book 0 is the original. Book 1 is a reboot and update, and due to large content the author decided to spread over two books (1 and 2). Book was referencd by Will Hamilton when he was mentioning that most ML models can be derived from a probabilistic perspective.
 - [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) (Bishop)
     - A classic from 2006, so quite old. I remember it being dense when I tried reading it years ago. But I was also a total noob.
