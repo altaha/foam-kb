@@ -47,10 +47,14 @@ Of course we dont know these latent cluster assignments beforehand..
 4.) Repeat steps 2 and 3 until convergence.
 
 ### Expectation step
-$$ r(X, K) = P(z=k | X) = P(x | z=k) P(z=k) / P(x) $$
-$$                      = P(x | z=k) P(z=k) / \sum_{j=1}^{K} ( P(x | z=j) P(z=j) ) $$
-$$                      = \pi_k N(x | \mu_k, \Sigma_k) / \sum_{j=1}^{K} ( \pi_j N(x | \mu_j, \Sigma_j) ) $$
-Note: \Sum r(X, K) = 1
+$$
+\begin{aligned}
+r(x, k) = P(z=k | x) &= \frac{ P(x | z=k) P(z=k) }{ P(x) } \\
+                      &= \frac{ P(x | z=k) P(z=k) }{ \sum_{j=1}^{K} P(x | z=j) P(z=j) } \\
+                      &= \frac{ \pi_k \cdot \mathcal{N}(x | \mu_k, \Sigma_k) }{ \sum_{j=1}^{K} \pi_j \cdot \mathcal{N}(x | \mu_j, \Sigma_j) }
+\end{aligned}
+$$
+Note: $\sum_{K} r(x, k) = 1$
 
 ### Maximization step
 $$ log(L(D, \Theta)) = \sum_{X \in D} log( \pi_k N(\mu_z, \Sigma_z) ) $$
