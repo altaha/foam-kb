@@ -14,7 +14,7 @@ NN Challenges dealing with Computer Vision:
   - Not feasible to run fully-contected networks on large images
 - 2D topology of pixels (3D for video): there is relationships between nearby pixels.
 - Invariances to variations, like scale, translation, illuination, rotation, etc
-  - We want architctures for CV that can handle these "Inductive Biases" [[inductive-bias]]
+  - We want architectures for CV that can handle these "Inductive Biases" [[inductive-bias]]
 
 ## CNN Architecture
 - Your input is now a tensor (2D image with possibly multiple color channels)
